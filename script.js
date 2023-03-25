@@ -22,7 +22,7 @@ let btn=document.getElementById("btn");
     let condition = false;
    let exist= existing(condition);
       if(condition=true){
-      continue;
+      document.write("Yep");
     }else{
       document.write("Nothing!");
     }
